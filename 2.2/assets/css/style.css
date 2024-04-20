@@ -59,9 +59,8 @@ footer {
   background: #fce138;
   padding: 40px 35px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 footer h2 {
