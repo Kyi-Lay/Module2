@@ -167,6 +167,7 @@ section {
   border-radius: 10px;
   /* update existing rule with this declaration */
   background-color: rgba(255,255,255, 0.75);
+  outline: none;
 }
 
 .form-input:focus {

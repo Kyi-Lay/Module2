@@ -1,3 +1,4 @@
+@media screen and (max-width: 980px) {
 header {
   display: flex;
 }
@@ -11,9 +12,6 @@ header h1 {
 
 header nav {
   margin: 7px 0;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 header nav ul {
@@ -54,9 +52,10 @@ header nav ul li a {
 .hero-form {
   width: 40%;
   margin: 3.5%;
+ }
 }
-
 /* SECONDARY PAGE STYLES */
+@media screen and (max-width: 575px) {
 .hero {
   background-position: bottom;
   height: auto;
@@ -98,15 +97,20 @@ header nav ul li a {
 .secondary-content li {
   color: #39a6b2;
   margin: 10px 0;
+ }
 }
 
+@media screen and (max-width: 768px) {
 .section title {
   justify-content: right;
   display: flex;
 }
 
+
+
 footer {
   justify-content: space-between;
   flex-wrap: wrap;
   display: flex;
+ }
 }
