@@ -387,6 +387,7 @@ section {
 .flex-row {
   display: flex;
 }
+ 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -432,7 +433,7 @@ section {
     flex: 0 70%;
   }
   
-  .contact-info iframe{
+  .contact-info iframe{git checkout -b feature/flexbox.
     flex: 1 100%;
   }
 
