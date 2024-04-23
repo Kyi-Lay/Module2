@@ -15,7 +15,7 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
-  display: flex;
+  d
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -358,3 +358,4 @@ section {
 .flex-row {
   display: flex;
 }
+
