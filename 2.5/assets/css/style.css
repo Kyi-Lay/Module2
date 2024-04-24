@@ -190,7 +190,7 @@ section {
 } 
 
 .checkbox-wrapper input, .radio-wrapper input {
-  opacity: 0;
+  opacity: 1;
 }
 
 .checkbox-wrapper label, .radio-wrapper label {
@@ -242,6 +242,16 @@ section {
 .checkbox-wrapper input + label::after, 
 .radio-wrapper input + label::after {
   content: none;
+}
+
+.checkbox-wrapper input:checked + label::after, 
+.radio-wrapper input:checked + label::after {
+  content: "";
+}
+
+.checkbox-wrapper input:checked + label,
+.radio-wrapper input:checked + label {
+  font-weight: bold;
 }
 
 .checkbox-wrapper input:checked + label::after, 
