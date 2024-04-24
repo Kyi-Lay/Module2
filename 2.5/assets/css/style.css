@@ -249,15 +249,7 @@ section {
   content: "";
 }
 
-.checkbox-wrapper input:checked + label,
-.radio-wrapper input:checked + label {
-  font-weight: bold;
-}
 
-.checkbox-wrapper input:checked + label::after, 
-.radio-wrapper input:checked + label::after {
-  content: "";
-}
 /* HERO STYLES END */
 
 
