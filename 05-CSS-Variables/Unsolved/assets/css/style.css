@@ -3,6 +3,9 @@
   --color: #fff;
   --background-color: #d8a47f;
   --box-shadow: 10px 10px 5px #aaaaaa;
+  --margin-bottom: 10px;background-color: #d8a47f;
+  --text-align: center;
+  --display: flex;
 }
 
 body {
